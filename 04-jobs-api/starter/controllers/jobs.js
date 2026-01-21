@@ -9,7 +9,7 @@ const getJob = (req, res) => {
 };
 
 const createJob = (req, res) => {
-  res.send("create job");
+  res.json(req.body);
 };
 
 const updateJob = (req, res) => {
