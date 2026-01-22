@@ -14,3 +14,5 @@ router.route('/').post(createJob).get(getAllJobs);
 router.route('/:id').get(getJob).patch(updateJob).delete(deleteJob);
 
 module.exports = router;
+
+//8:24
